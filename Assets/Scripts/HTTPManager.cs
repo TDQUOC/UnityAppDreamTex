@@ -100,6 +100,7 @@ public class HTTPManager : SingletonBase<HTTPManager>
                 new HTTPRequest(new Uri(hostUrl + checkOutUrl), HTTPMethods.Post, (req, res) =>
                 {
                     responeData = JsonConvert.DeserializeObject<ResponeData>(res.DataAsText);
+                    Debug.Log(res.DataAsText);
                     Debug.Log(responeData.Msg);
                     LayoutController.Instance.ShowNotifyLayout(responeData.Msg.ToString(), () =>
                     {

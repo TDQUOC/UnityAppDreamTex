@@ -1,0 +1,6 @@
+
+8csharpsquid:S3168'"Return 'Task' instead.(›”ðÉþÿÿÿÿ
+wcsharpsquid:S101	"[Rename class 'HTTPManager' to match pascal case naming rules, consider using 'HttpManager'.(­Ž„˜
+Gcsharpsquid:S3903	"*Move 'HTTPManager' into a named namespace.(­Ž„˜
+\csharpsquid:S1075"?Refactor your code not to use hardcoded absolute paths or URIs.(ß±»…
+;csharpsquid:S1250"Remove this commented out code.(Ö«’Æ
